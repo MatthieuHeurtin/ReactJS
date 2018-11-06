@@ -1,0 +1,10 @@
+.Foot
+{
+    display: inline-block;
+	background-color: #e4e4e4;	
+	bottom: 0%;
+	width: 75%;
+	 border-radius: 0px 0px 10px 10px;
+	 height: 10%;
+	 box-shadow: 6px 6px 0px black;
+}

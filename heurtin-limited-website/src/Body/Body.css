@@ -1,0 +1,27 @@
+.Body
+{
+    width: 75%;
+    height: 100%;
+    top: 3%;
+    box-shadow: 6px 6px 0px black;
+    background-color:white;
+    display: inline-block;
+    text-align: left;
+}
+
+p
+{
+    padding-left : 10px;
+    padding-right : 10px;
+}
+
+#red 
+{
+    color:red;
+}
+#nextButton
+{
+    display: block;
+    margin: 0 auto;
+    text-align: center;
+}

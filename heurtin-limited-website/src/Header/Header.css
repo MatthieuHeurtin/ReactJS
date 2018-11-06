@@ -1,0 +1,10 @@
+.Header
+{
+    width: 75%;
+    height: 5%;
+    padding-bottom: 50px;
+	display: inline-block;
+     border-radius: 10px 10px 0px 0px;
+    background-color: #e4e4e4;
+    box-shadow: 6px 6px 0px black;
+}

@@ -1,0 +1,68 @@
+.header
+{
+	display: inline-block;
+	width: 100%;
+	height: 17%;
+	position: absolute;
+    	top: 0%;
+ 	border-radius: 10px 10px 0px 0px;
+	background-image: url("./../images/headerImage.jpg");
+	background-size: 100% 100%;
+
+}
+
+
+.foot
+{
+	display: inline-block;
+	background-color: green;	
+	position: absolute;
+	bottom: 0%;
+	width: 100%;
+	height: 10%;
+ 	border-radius: 0px 0px 10px 10px;
+}
+
+
+.corps
+{
+	width: 80%;
+	height: 190%;
+	position: absolute;
+    	top: 3%;
+	margin-left: 10%;
+	box-shadow: 6px 6px 0px black;
+	border-radius: 10px;
+	
+}
+
+
+.inside_corps
+{
+	display: inline-block;
+	position: absolute;
+	background-color: #F4FEFE;
+	width: 100%;
+	height:73%;
+	top:17%;
+	overflow-y: auto;
+}
+
+
+body
+{
+	background-image: url("./../images/back_image.jpg");
+	background-attachment: fixed; 
+	background-repeat: repeat; 
+	background-position: top right;	
+}
+
+p, h4
+{
+	text-align:justify;
+	margin-left: 2%;
+	margin-right:2%;
+}
+
+
+
