@@ -2,7 +2,7 @@
     import './Body.css'
     import DefaultContent from './Contents/DefaultContent'
     import PresentationContent from './Contents/PresentationContent'
-    import TableOfContent from './Contents/TableOfContent'
+    import TechnologyList from './TechnologyList/TechnologyList.';
 
     class Body extends Component{
 
@@ -19,7 +19,6 @@
 
     nextContent(event){
         this.setState({ i:  parseInt(this.state.i) +1 }); 
-        this.render()
     }
 
     getContent(index){
@@ -29,7 +28,7 @@
             case "presentationContent":
               return <PresentationContent/> 
             case "tableOfContent":
-               return <TableOfContent/>
+               return <TechnologyList/>
           }
 
     
