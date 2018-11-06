@@ -13,6 +13,9 @@ class Header extends Component {
         return (
             <div className="Header">
               <h1>Matt's website</h1>
+              <h6> I want to meet you : <br/>
+              <a href="mailto:matthieu.heurtin@gmail.com"><img src={require('./images/gmail.png')}/></a>
+                </h6>
             </div>
           );
     }
