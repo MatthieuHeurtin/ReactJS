@@ -18,7 +18,7 @@ class Technology extends Component {
     getDescription(){
         switch(this.state.name) {
             case "C-Sharp":
-                return <Description/>
+                return <Description name='C-Sharp'/>
         }
     }
 

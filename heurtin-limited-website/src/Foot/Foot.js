@@ -9,7 +9,8 @@ class Foot extends Component {
     render(){
         return (
             <div className='Foot'>
-            I'm the foot
+            First release : 5 Novembre 2018 <br/>
+            Last release : 6 Novembre 2018
             </div>
         )
     }

@@ -1,0 +1,24 @@
+.Description
+{
+    display: flex;
+    text-align: left;
+}
+
+#left
+{   
+    vertical-align: center;
+    height: 100%;
+    margin:3%;
+    width : 10%;
+}
+
+
+#right
+{
+    background: red;
+    flex :1;
+}
+#logo
+{
+    width:50%;
+}

@@ -17,11 +17,11 @@
     }
 
 
-    nextContent(event){
+    nextContent(){
         this.setState({ i:  parseInt(this.state.i) +1 }); 
     }
 
-    getContent(index){
+    getContent(){
         switch(this.state.steps[this.state.i]) {
             case "defaultContent":
               return <DefaultContent/>
@@ -29,7 +29,7 @@
               return <PresentationContent/> 
             case "tableOfContent":
                return <TechnologyList/>
-          }
+    }
 
     
     }

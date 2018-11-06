@@ -11,7 +11,7 @@ class TechnologyList extends Component {
 
     render(){
         return   <div className='TechnologyList'>
-        <Technology name='C-Sharp' logoPath='./C#.png'/>
+        <Technology name='C-Sharp'/>
         <Technology name='SQL'/>
         </div>
     }

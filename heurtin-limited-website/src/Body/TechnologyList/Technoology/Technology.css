@@ -5,20 +5,17 @@
     border-color: black;
     border-width: 1px;
     border-style: solid;
-    text-align: center;
+    text-align: left;
+     
 
 
 }
 
 #expandButton
 {
-    background:white;
+    background-image: linear-gradient(#cec1e7, #ddd3ee);
     width: 100%;
     height: 100%;
     padding: 3%;
 }
 
-img
-{
-    width: 5%;
-}
