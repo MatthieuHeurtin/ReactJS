@@ -1,30 +1,26 @@
 import React, { Component } from 'react';
-import './Popup.css'
+import './Popup.css';
 
-class Popup extends Component
-{
-    constructor(props){
-        super(props)
-    }
+class Popup extends React.Component {
 
 
-    render(){
-        if(!this.props.show) {
-            return null;
-          }
 
-        return (<div className='Popup'>
-        <p>Hello, before starting, please note that this website has been designed using React JS, 
-  and has been optimized for <span class="red">Mozilla firefox.</span> 
+    render() {
+      return (
+        <div className='popup'>
+           <div className='popup_inner'>
+           <p>Hello, before starting, please note that this website has been designed using React JS, 
+  and has bben optimized for <span class="red">Mozilla firefox.</span> 
   <br/>Now let's start.
 </p>
-        <button id='closeButton' onClick={this.props.onClose}>Ok, got it</button>
-        </div>
-        );
+
+
+
+          <button onClick={this.props.closePopup}>Ok, Got it</button>
+          </div>
+          </div>
+      );
     }
+  }
 
-
-}
-
-
-export default Popup;
+  export default Popup;
