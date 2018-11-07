@@ -7,6 +7,7 @@ import Header from './../Header/Header';
 import Body from './../Body/Body';
 import Foot from './../Foot/Foot';
 import Popup from './../Popup/Popup';
+import Menu from './../Menu/Menu';
 
 
 class GlobalComponent extends Component {
@@ -34,6 +35,7 @@ class GlobalComponent extends Component {
         return (
             <div  className='GlobalComponent'>
             <Header/>    
+            <Menu/>
            <Body name="defaultContent"/>
            <Foot/> 
            {this.state.displayPopup ? 

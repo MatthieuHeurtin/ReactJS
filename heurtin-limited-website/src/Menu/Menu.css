@@ -1,0 +1,27 @@
+.Menu
+{
+    width: 75%;
+    box-shadow: 6px 6px 0px black;
+    background-color:white;
+    display: inline-block;
+    position: relative;
+    
+}
+
+.menuButton
+{
+    background-image: linear-gradient(#cec1e7, #ddd3ee); 
+    padding: 1%;
+    width: 25%;
+    border:1px solid #000;
+    display: inline-block;
+}
+
+.selectedButton
+{
+    background : purple;
+    padding: 1%;
+    width: 25%;
+    border:1px solid #000;
+    display: inline-block;
+}
