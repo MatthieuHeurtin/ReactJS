@@ -37,8 +37,9 @@
     render() {
         return (
             <div className='Body'>
-                {this.getContent(this.state.i)}
                 <button id="nextButton" onClick={this.nextContent}>Next</button>
+                {this.getContent(this.state.i)}
+             
             </div>
         );
     }

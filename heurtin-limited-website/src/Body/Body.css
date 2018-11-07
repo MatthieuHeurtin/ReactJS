@@ -15,14 +15,24 @@ p
     padding-right : 10px;
 }
 
-#red 
+.bold
+{
+    font-weight: bold;
+}
+
+.italic
+{
+    font-style: italic;
+}
+.red 
 {
     color:red;
 }
 #nextButton
 {
+    
     display: block;
-    margin: 0 auto;
+    margin: 1% auto;
     text-align: center;
 }
 

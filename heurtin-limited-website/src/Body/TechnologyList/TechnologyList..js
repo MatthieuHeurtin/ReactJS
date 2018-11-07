@@ -13,6 +13,7 @@ class TechnologyList extends Component {
         return   <div className='TechnologyList'>
         <Technology name='C-Sharp'/>
         <Technology name='SQL'/>
+        <Technology name='ReactJS'/>
         </div>
     }
 }
